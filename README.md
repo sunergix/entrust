@@ -1,33 +1,34 @@
-# ENTRUST (Laravel 9 Package)
+# ENTRUST (Laravel 9|10 Package)
 
 Forked from [zizaco/entrust](https://github.com/Zizaco/entrust)
 
-Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 9**.
+Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 9|10**.
 
 If you are using an older version of laravel, use version ~3.0
 
 ## Contents
 
-- [Installation](#installation)
-- [Configuration](#configuration)
+- [ENTRUST (Laravel 9|10 Package)](#entrust-laravel-910-package)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
     - [User relation to roles](#user-relation-to-roles)
     - [Models](#models)
-        - [Role](#role)
-        - [Permission](#permission)
-        - [User](#user)
-        - [Soft Deleting](#soft-deleting)
-- [Usage](#usage)
+      - [Role](#role)
+      - [Permission](#permission)
+      - [User](#user)
+      - [Soft Deleting](#soft-deleting)
+  - [Usage](#usage)
     - [Concepts](#concepts)
-        - [Checking for Roles & Permissions](#checking-for-roles--permissions)
-        - [User ability](#user-ability)
+      - [Checking for Roles \& Permissions](#checking-for-roles--permissions)
+      - [User ability](#user-ability)
     - [Blade templates](#blade-templates)
     - [Middleware](#middleware)
     - [Short syntax route filter](#short-syntax-route-filter)
     - [Route filter](#route-filter)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Contribution guidelines](#contribution-guidelines)
-- [Additional information](#additional-information)
+  - [Troubleshooting](#troubleshooting)
+  - [License](#license)
+  - [Contribution guidelines](#contribution-guidelines)
 
 ## Installation
 
