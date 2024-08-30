@@ -37,8 +37,11 @@ class EntrustRole
 	 */
 	public function handle($request, Closure $next, $roles)
 	{
+
 		if (!is_array($roles)) {
-			$roles = explode(self::DELIMITER, $roles);
+		    // Convert $roles to an empty string if it's null or not a string
+		    $roles = $roles ?? '';  
+		    $roles = explode(self::DELIMITER, $roles);
 		}
 
 		if ($this->auth->guest() || !$request->user()->hasRole($roles)) {
